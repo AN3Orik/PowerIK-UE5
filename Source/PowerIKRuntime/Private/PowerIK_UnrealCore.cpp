@@ -13,8 +13,6 @@ Unauthorized copying, selling or distribution of this software is strictly prohi
 #include "Rigs/RigBoneHierarchy.h"
 
 #include "DrawDebugHelpers.h"
-#include "Engine/Private/Collision/CollisionDebugDrawing.h"
-
 #include <string.h>
 
 using PowerIK::Vec3;

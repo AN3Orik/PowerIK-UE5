@@ -123,7 +123,7 @@ void FPowerIKCore::LoadBonesFromControlRig(URigHierarchy* Hierarchy)
 		// const FRigBone& RigBone = (*Hierarchy)[i];
 
 		FPowerIKBoneData& Bone = BonesData[i];
-		Bone.BoneName = RigBoneElem->GetName();
+		Bone.BoneName = RigBoneElem->GetFName();
 		CopyFNameToString(Bone.BoneName, Bone.NameString);
 		Bone.Index = RigBoneElem->GetIndex();
 		Bone.ParentIndex = RigBoneElem->ParentElement->GetIndex();

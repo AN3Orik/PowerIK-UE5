@@ -1,0 +1,8 @@
+{
+	"BuildId": "33043543",
+	"Modules": 
+	{
+		"PowerIKRuntime": "UnrealEditor-PowerIKRuntime.dll",
+		"PowerIKTool": "UnrealEditor-PowerIKTool.dll"
+	}
+}
